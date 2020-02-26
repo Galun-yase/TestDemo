@@ -13,7 +13,6 @@
     <bytecodeTargetLevel target="12">
       <module name="Module1" target="12" />
       <module name="Module2" target="12" />
-      <module name="TestDemo" target="12" />
     </bytecodeTargetLevel>
   </component>
 </project>
