@@ -25,7 +25,7 @@ public class JacksonTest {
         System.out.println(book.pubDate);
 
         //解析json
-        InputStream input1 = JacksonTest.class.getResourceAsStream("/book.json");
+        InputStream input1 = JacksonTest.class.getResourceAsStream("/JsontoJava.json");
         ObjectMapper mapper1 = new ObjectMapper().registerModule(new JavaTimeModule());
         // 反序列化时忽略不存在的JavaBean属性:
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
