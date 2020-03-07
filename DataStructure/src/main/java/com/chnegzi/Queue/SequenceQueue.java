@@ -57,7 +57,7 @@ public class SequenceQueue<T> {
     }
 
     //判空
-    private boolean isEmpty(){
+    public boolean isEmpty(){
         return this.front==this.rear;
     }
     //判满
